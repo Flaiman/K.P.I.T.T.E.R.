@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    font-family: Oswald;
+}
+
+a.active hr{
+    display: block;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display:none
+}
+@font-face {
+    font-family: 'Stalker';
+    src: url('../src/assets/fonts/AmazS.T.A.L.K.E.R.v.3.0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
